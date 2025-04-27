@@ -1,0 +1,136 @@
+<header class="header_encompass">
+    <div class="container">
+        <div class="logo">
+            <a href="/">
+                <img src="./public/saria.png" alt="logo"> 
+            </a>
+        </div>
+        <div class="bs_area">
+            <h3 class="temp_text">TEMPORARY SITE</h3>
+        </div>
+        <div class="bs_area_2">
+            <a href="https://defjunior.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
+                <img src="./public/emoji gif.gif" alt="really funny gif" class="emoji_gif">
+            </a> 
+        </div>
+        <nav class="menu">
+            <ul class='menu_list'>
+                <li><a href="/">home</a></li>
+                <li><a href="/about">about</a></li>
+                <li><a href="/work">work</a></li>
+            </ul>
+        </nav>
+        <div class="relevant_links">
+            <ul class='contact_list'>
+                <li><a href="https://github.com/sankalptank" target="_blank" rel="noopener noreferrer"><img src="./public/github.svg" alt="github" class="github_img"><img></a></li>
+                <li><a href="https://www.instagram.com/sankalptank/" target="_blank" rel="noopener noreferrer"><img src="./public/instagram svg.svg" alt="instagram" class="github_img"><img></a></li>
+                <li><a href="mailto:sankalp.tank@gmail.com" target="_blank" rel="noopener noreferrer"><img src="./public/email svg.svg" alt="email" class="github_img"><img></a></li>
+            </ul>
+        </div>
+        <div class="text_area">
+            <p>sankalp tank</p>
+            <p>portoflio site</p>
+            <p>very beautiful i know</p>
+        </div>
+    </div>
+</header>
+
+<style>
+    img{
+        display: block; 
+        width: 100%; 
+        height: 100;
+    }
+    li{
+        padding: 0 2rem;
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .header_encompass{
+        position: relative;
+        z-index: 5;
+        width: 100%;
+        opacity: 1;
+        background-color: red;
+        border-bottom: 1px solid rgb(0, 0, 0);;
+        border-radius: 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        height: 6rem;   
+    }
+    .logo{
+        width: 6rem;
+        height: 6rem;
+        border-right: 1px solid black;
+    }
+    .bs_area{
+        width: auto;
+        height: 6rem;
+        border-right: 1px solid black;
+        padding: 0 1rem;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        
+    }
+    .temp_text{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .bs_area_2{
+        width: auto;
+        height: 6rem;
+        border-right: 1px solid black;
+        padding: 0 1rem;
+    }
+    .emoji_gif{
+        width: auto;
+        height: 6rem;
+    }
+    .menu_list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    .contact_list{
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    .github_img{
+        width: auto;
+        height: 2rem;
+    }
+    .text_area{
+        width: auto;
+        height: 6rem;
+        border-right: 1px solid black;
+        padding: 0 1rem;
+    }
+    
+    .bs_area,
+    .menu {
+        flex-grow: 1; /* 🆕 This will make them expand */
+    }
+</style>
